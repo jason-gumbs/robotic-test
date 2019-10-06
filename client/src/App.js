@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import logo from "./logo.svg";
-import images from "./images/junk_food_subject_graphic.png";
-import images2 from "./images/soccer_stadium_subject_graphic.png";
-import images3 from "./images/theme_park_subject_graphic.png";
+// import images from "./images/junk_food_subject_graphic.png";
+import images from "./images/soccer_stadium_subject_graphic.png";
+// import images3 from "./images/theme_park_subject_graphic.png";
 
 // import './App.css';
 
@@ -37,7 +37,7 @@ function App() {
                 <br />
                 {data.standard}
                 <img
-                  src={require("./images/junk_food_subject_graphic.png")}
+                  src={images}
                   alt={data.name}
                   style={{ height: 80, width: 80, margin: 30 }}
                 />
