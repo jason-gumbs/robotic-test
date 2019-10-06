@@ -1,0 +1,26 @@
+{
+  "name": "robotic-test",
+  "version": "1.0.0",
+  "description": "robotic test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilfredgumbs/robotic-test.git"
+  },
+  "keywords": [
+    "testing",
+    "brainstorm"
+  ],
+  "author": "wilfred gumbs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilfredgumbs/robotic-test/issues"
+  },
+  "homepage": "https://github.com/wilfredgumbs/robotic-test#readme",
+  "dependencies": {
+    "sqlite3": "^4.1.0"
+  }
+}
