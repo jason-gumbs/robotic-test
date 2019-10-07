@@ -43,9 +43,9 @@ function App() {
               return (
                 <div key={i}>
                   <li>
-                    {data.name}
+                    Name: {data.name}
                     <br />
-                    {data.standard}
+                    Standard: {data.standard}
                   </li>
                   <img
                     src={require(`./${data.image}`)}
@@ -64,7 +64,7 @@ function App() {
         <br />
         <br />
         <br />
-        Search Below
+        Search by standard below
         <br />
         <input
           type="text"

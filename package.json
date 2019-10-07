@@ -6,6 +6,7 @@
   "scripts": {
     "test": "test",
     "client": "node scripts/start-client.js",
+    "installDeps": "npm i  && cd client && npm i",
     "start": "concurrently \"nodemon index.js\" \"cd client && npm run start\""
   },
   "repository": {
